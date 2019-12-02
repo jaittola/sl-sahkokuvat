@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name SL-sahkot-rescue)(type Legacy)(uri ${KIPRJMOD}/SL-sahkot-rescue.lib)(options "")(descr ""))
+)

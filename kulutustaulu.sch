@@ -1,0 +1,413 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date "2019-12-02-Draft"
+Rev "0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Fuse F21
+U 1 1 5DF144BF
+P 1400 900
+F 0 "F21" V 1505 900 50  0000 C CNN
+F 1 "Fuse" V 1506 900 50  0001 C CNN
+F 2 "" V 1330 900 50  0001 C CNN
+F 3 "~" H 1400 900 50  0001 C CNN
+	1    1400 900 
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 KulkuvaloBB
+U 1 1 5DF144C0
+P 3400 700
+F 0 "KulkuvaloBB" H 3480 646 50  0001 L CNN
+F 1 "Vasen kulkuvalo" H 3480 601 50  0000 L CNN
+F 2 "" H 3400 700 50  0001 C CNN
+F 3 "~" H 3400 700 50  0001 C CNN
+	1    3400 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 900  1650 900 
+$Comp
+L Connector_Generic:Conn_01x02 KulkuvaloSB
+U 1 1 5DF01D44
+P 3400 950
+F 0 "KulkuvaloSB" H 3480 896 50  0001 L CNN
+F 1 "Oikea kulkuvalo" H 3480 851 50  0000 L CNN
+F 2 "" H 3400 950 50  0001 C CNN
+F 3 "~" H 3400 950 50  0001 C CNN
+	1    3400 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 Mastovalo
+U 1 1 5DF02280
+P 3400 1200
+F 0 "Mastovalo" H 3480 1146 50  0001 L CNN
+F 1 "Mastovalo" H 3480 1101 50  0000 L CNN
+F 2 "" H 3400 1200 50  0001 C CNN
+F 3 "~" H 3400 1200 50  0001 C CNN
+	1    3400 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 Peravalo
+U 1 1 5DF026ED
+P 3400 1450
+F 0 "Peravalo" H 3480 1396 50  0001 L CNN
+F 1 "Perävalo" H 3480 1351 50  0000 L CNN
+F 2 "" H 3400 1450 50  0001 C CNN
+F 3 "~" H 3400 1450 50  0001 C CNN
+	1    3400 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 Ankkurivalo
+U 1 1 5DF02A8B
+P 3400 1700
+F 0 "Ankkurivalo" H 3480 1646 50  0001 L CNN
+F 1 "Ankkurivalo" H 3480 1601 50  0000 L CNN
+F 2 "" H 3400 1700 50  0001 C CNN
+F 3 "~" H 3400 1700 50  0001 C CNN
+	1    3400 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse F22
+U 1 1 5DF5503B
+P 1400 2050
+F 0 "F22" V 1505 2050 50  0000 C CNN
+F 1 "Fuse" V 1506 2050 50  0001 C CNN
+F 2 "" V 1330 2050 50  0001 C CNN
+F 3 "~" H 1400 2050 50  0001 C CNN
+	1    1400 2050
+	0    1    -1   0   
+$EndComp
+$Comp
+L Switch:SW_DPST SW_F1
+U 1 1 5DF58CD0
+P 1900 2150
+F 0 "SW_F1" H 1900 2383 50  0000 C CNN
+F 1 "SW_DPST" H 1900 2384 50  0001 C CNN
+F 2 "" H 1900 2150 50  0001 C CNN
+F 3 "~" H 1900 2150 50  0001 C CNN
+	1    1900 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 Ulkovalo1
+U 1 1 5DF5B193
+P 3400 2050
+F 0 "Ulkovalo1" H 3480 2042 50  0001 L CNN
+F 1 "Ulkovalo 1" H 3480 1996 50  0000 L CNN
+F 2 "" H 3400 2050 50  0001 C CNN
+F 3 "~" H 3400 2050 50  0001 C CNN
+	1    3400 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2250 3200 2150
+$Comp
+L Device:Fuse F23
+U 1 1 5DF60254
+P 1400 2550
+F 0 "F23" V 1505 2550 50  0000 C CNN
+F 1 "Fuse" V 1506 2550 50  0001 C CNN
+F 2 "" V 1330 2550 50  0001 C CNN
+F 3 "~" H 1400 2550 50  0001 C CNN
+	1    1400 2550
+	0    1    -1   0   
+$EndComp
+$Comp
+L Switch:SW_DPST SW_F2
+U 1 1 5DF6025D
+P 1900 2650
+F 0 "SW_F2" H 1900 2883 50  0000 C CNN
+F 1 "SW_DPST" H 1900 2884 50  0001 C CNN
+F 2 "" H 1900 2650 50  0001 C CNN
+F 3 "~" H 1900 2650 50  0001 C CNN
+	1    1900 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 Ulkovalo2
+U 1 1 5DF60264
+P 3400 2550
+F 0 "Ulkovalo2" H 3480 2542 50  0001 L CNN
+F 1 "Ulkovalo 2" H 3480 2496 50  0000 L CNN
+F 2 "" H 3400 2550 50  0001 C CNN
+F 3 "~" H 3400 2550 50  0001 C CNN
+	1    3400 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2750 3200 2650
+$Comp
+L Switch:SW_DPDT_ON_OFF_ON SW_F8
+U 1 1 5DFBBA23
+P 1950 1050
+F 0 "SW_F8" H 2000 1399 50  0000 C CNN
+F 1 "F8" H 2000 1399 50  0001 C CNN
+F 2 "" H 1850 1500 50  0001 C CNN
+F 3 "" H 1850 1500 50  0001 C CNN
+	1    1950 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 1000 1650 1200
+Wire Wire Line
+	2350 950  2600 950 
+Wire Wire Line
+	2600 950  2600 700 
+Wire Wire Line
+	3050 700  3200 700 
+Wire Wire Line
+	3050 950  3200 950 
+Connection ~ 2600 950 
+Wire Wire Line
+	3050 1200 3200 1200
+Wire Wire Line
+	3050 1450 3200 1450
+Wire Wire Line
+	2350 800  2400 800 
+Wire Wire Line
+	2350 1250 2550 1250
+Connection ~ 2550 1250
+Wire Wire Line
+	2600 950  2600 1200
+Wire Wire Line
+	2550 1250 2550 1300
+Wire Wire Line
+	2550 800  2550 1050
+$Comp
+L Device:Fuse F?
+U 1 1 5DFCEFA9
+P 2900 700
+F 0 "F?" V 3005 700 50  0000 C CNN
+F 1 "Fuse" V 3006 700 50  0001 C CNN
+F 2 "" V 2830 700 50  0001 C CNN
+F 3 "~" H 2900 700 50  0001 C CNN
+	1    2900 700 
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:Fuse F?
+U 1 1 5DFD1F00
+P 2900 950
+F 0 "F?" V 3005 950 50  0000 C CNN
+F 1 "Fuse" V 3006 950 50  0001 C CNN
+F 2 "" V 2830 950 50  0001 C CNN
+F 3 "~" H 2900 950 50  0001 C CNN
+	1    2900 950 
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:Fuse F?
+U 1 1 5DFD2567
+P 2900 1200
+F 0 "F?" V 3005 1200 50  0000 C CNN
+F 1 "Fuse" V 3006 1200 50  0001 C CNN
+F 2 "" V 2830 1200 50  0001 C CNN
+F 3 "~" H 2900 1200 50  0001 C CNN
+	1    2900 1200
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:Fuse F?
+U 1 1 5DFD2A75
+P 2900 1450
+F 0 "F?" V 3005 1450 50  0000 C CNN
+F 1 "Fuse" V 3006 1450 50  0001 C CNN
+F 2 "" V 2830 1450 50  0001 C CNN
+F 3 "~" H 2900 1450 50  0001 C CNN
+	1    2900 1450
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2600 700  2750 700 
+Wire Wire Line
+	3200 800  2550 800 
+Wire Wire Line
+	2600 950  2750 950 
+Wire Wire Line
+	2550 1050 3200 1050
+Connection ~ 2550 1050
+Wire Wire Line
+	2550 1050 2550 1250
+Wire Wire Line
+	2750 1200 2600 1200
+Connection ~ 2600 1200
+Wire Wire Line
+	2600 1200 2600 1450
+Wire Wire Line
+	2550 1300 3200 1300
+Connection ~ 2550 1300
+Wire Wire Line
+	2550 1300 2550 1550
+Wire Wire Line
+	2750 1450 2600 1450
+Wire Wire Line
+	2550 1550 3200 1550
+Wire Wire Line
+	2350 1100 2350 1250
+Wire Wire Line
+	2350 1800 3200 1800
+Connection ~ 2350 1250
+Wire Wire Line
+	2350 1250 2350 1800
+Wire Wire Line
+	2400 1700 2400 800 
+Wire Wire Line
+	2400 1700 3200 1700
+Wire Wire Line
+	2100 2050 3200 2050
+Wire Wire Line
+	2100 2250 3200 2250
+Wire Wire Line
+	2100 2550 3200 2550
+Wire Wire Line
+	2100 2750 3200 2750
+Text HLabel 1100 850  0    50   Input ~ 0
+Käyttösyöttö-
+Text HLabel 1100 700  0    50   Input ~ 0
+Käyttösyöttö+
+Wire Wire Line
+	1250 900  1250 2050
+Connection ~ 1250 2050
+Wire Wire Line
+	1250 2050 1250 2550
+Wire Wire Line
+	1550 2050 1700 2050
+Wire Wire Line
+	1550 2550 1700 2550
+Wire Wire Line
+	1250 900  1250 700 
+Wire Wire Line
+	1250 700  1100 700 
+Connection ~ 1250 900 
+Wire Wire Line
+	1100 850  1150 850 
+Wire Wire Line
+	1150 850  1150 1000
+Wire Wire Line
+	1150 2750 1700 2750
+Wire Wire Line
+	1700 2250 1150 2250
+Connection ~ 1150 2250
+Wire Wire Line
+	1150 2250 1150 2750
+Wire Wire Line
+	1650 1000 1150 1000
+Connection ~ 1150 1000
+Wire Wire Line
+	1150 1000 1150 2250
+$Comp
+L Device:Fuse F?
+U 1 1 5E0151AE
+P 1400 3050
+F 0 "F?" V 1505 3050 50  0000 C CNN
+F 1 "Fuse" V 1506 3050 50  0001 C CNN
+F 2 "" V 1330 3050 50  0001 C CNN
+F 3 "~" H 1400 3050 50  0001 C CNN
+	1    1400 3050
+	0    1    -1   0   
+$EndComp
+$Comp
+L Switch:SW_DPST SW_F3
+U 1 1 5E0151B4
+P 1900 3150
+F 0 "SW_F3" H 1900 3383 50  0000 C CNN
+F 1 "SW_DPST" H 1900 3384 50  0001 C CNN
+F 2 "" H 1900 3150 50  0001 C CNN
+F 3 "~" H 1900 3150 50  0001 C CNN
+	1    1900 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 Ulkovalo3
+U 1 1 5E0151BA
+P 3400 3050
+F 0 "Ulkovalo3" H 3480 3042 50  0001 L CNN
+F 1 "Ulkovalo 3" H 3480 2996 50  0000 L CNN
+F 2 "" H 3400 3050 50  0001 C CNN
+F 3 "~" H 3400 3050 50  0001 C CNN
+	1    3400 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 3250 3200 3150
+$Comp
+L Device:Fuse F?
+U 1 1 5E0151C1
+P 1400 3550
+F 0 "F?" V 1505 3550 50  0000 C CNN
+F 1 "Fuse" V 1506 3550 50  0001 C CNN
+F 2 "" V 1330 3550 50  0001 C CNN
+F 3 "~" H 1400 3550 50  0001 C CNN
+	1    1400 3550
+	0    1    -1   0   
+$EndComp
+$Comp
+L Switch:SW_DPST SW_F4
+U 1 1 5E0151C7
+P 1900 3650
+F 0 "SW_F4" H 1900 3883 50  0000 C CNN
+F 1 "SW_DPST" H 1900 3884 50  0001 C CNN
+F 2 "" H 1900 3650 50  0001 C CNN
+F 3 "~" H 1900 3650 50  0001 C CNN
+	1    1900 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 Ulkovalo4
+U 1 1 5E0151CD
+P 3400 3550
+F 0 "Ulkovalo4" H 3480 3542 50  0001 L CNN
+F 1 "Ulkovalo 4" H 3480 3496 50  0000 L CNN
+F 2 "" H 3400 3550 50  0001 C CNN
+F 3 "~" H 3400 3550 50  0001 C CNN
+	1    3400 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 3750 3200 3650
+Wire Wire Line
+	2100 3050 3200 3050
+Wire Wire Line
+	2100 3250 3200 3250
+Wire Wire Line
+	2100 3550 3200 3550
+Wire Wire Line
+	2100 3750 3200 3750
+Wire Wire Line
+	1250 1900 1250 2050
+Wire Wire Line
+	1250 3050 1250 3550
+Wire Wire Line
+	1550 3050 1700 3050
+Wire Wire Line
+	1550 3550 1700 3550
+Wire Wire Line
+	1150 3750 1700 3750
+Wire Wire Line
+	1700 3250 1150 3250
+Wire Wire Line
+	1250 3050 1250 2550
+Connection ~ 1250 3050
+Connection ~ 1250 2550
+Wire Wire Line
+	1150 2750 1150 3250
+Connection ~ 1150 2750
+Wire Wire Line
+	1150 3250 1150 3750
+Connection ~ 1150 3250
+$EndSCHEMATC
