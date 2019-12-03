@@ -253,10 +253,10 @@ F4 "Käyttösyöttö+" I L 7500 3850 50
 F5 "Käyttösyöttö-" I L 7500 3950 50 
 $EndSheet
 $Comp
-L Device:Fuse F01
+L Device:Fuse F-C5
 U 1 1 5DE9BAD4
 P 6350 4450
-F 0 "F01" V 6153 4450 50  0000 C CNN
+F 0 "F-C5" V 6153 4450 50  0000 C CNN
 F 1 "Käyttösyötön pääsulake +" V 6244 4450 50  0000 C CNN
 F 2 "" V 6280 4450 50  0001 C CNN
 F 3 "~" H 6350 4450 50  0001 C CNN
@@ -264,10 +264,10 @@ F 3 "~" H 6350 4450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Fuse F02
+L Device:Fuse F-C6
 U 1 1 5DE9C66F
 P 6350 4800
-F 0 "F02" V 6153 4800 50  0000 C CNN
+F 0 "F-C6" V 6153 4800 50  0000 C CNN
 F 1 "Käyttösyötön pääsulake -" V 6244 4800 50  0000 C CNN
 F 2 "" V 6280 4800 50  0001 C CNN
 F 3 "~" H 6350 4800 50  0001 C CNN
@@ -275,10 +275,10 @@ F 3 "~" H 6350 4800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Fuse F03
+L Device:Fuse F-C3
 U 1 1 5DE9CB20
 P 6350 3650
-F 0 "F03" V 6153 3650 50  0000 C CNN
+F 0 "F-C3" V 6153 3650 50  0000 C CNN
 F 1 "Hätäsyötön pääsulake +" V 6244 3650 50  0000 C CNN
 F 2 "" V 6280 3650 50  0001 C CNN
 F 3 "~" H 6350 3650 50  0001 C CNN
@@ -286,10 +286,10 @@ F 3 "~" H 6350 3650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Fuse F04
+L Device:Fuse F-C4
 U 1 1 5DE9CDD8
 P 6350 4000
-F 0 "F04" V 6153 4000 50  0000 C CNN
+F 0 "F-C4" V 6153 4000 50  0000 C CNN
 F 1 "Hätäsyötön pääsulake -" V 6244 4000 50  0000 C CNN
 F 2 "" V 6280 4000 50  0001 C CNN
 F 3 "~" H 6350 4000 50  0001 C CNN

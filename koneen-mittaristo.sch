@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
-Title "Särkänlinnan mottorin mittariston kytkentä"
+Title "Särkänlinnan moottorin mittariston kytkentä"
 Date "2019-12-02-Draft"
 Rev "0"
 Comp "Merenkävijät ry"
@@ -518,4 +518,6 @@ Wire Wire Line
 	2050 2350 2050 3800
 Wire Wire Line
 	2050 3800 2500 3800
+Text Notes 750  2700 0    50   ~ 0
+Huom: johtosarjan kaapelien järjestys tarkistettava, numerointi nyt väärin.
 $EndSCHEMATC
