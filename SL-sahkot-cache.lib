@@ -314,11 +314,57 @@ X + 2 0 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SL-sahkot-rescue_Koneen-mittari-1-mittausnapa-Connector_Generic
+# SL-sahkot-rescue_Koneen-mittari-4-nap
 #
-DEF SL-sahkot-rescue_Koneen-mittari-1-mittausnapa-Connector_Generic Mittari 0 40 Y N 1 F N
+DEF SL-sahkot-rescue_Koneen-mittari-4-nap Mittari 0 40 Y N 1 F N
+F0 "Mittari" 0 250 50 H V C CNN
+F1 "SL-sahkot-rescue_Koneen-mittari-4-nap" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 200 50 -250 1 1 10 f
+X Pin_3 + -200 0 150 R 50 50 1 1 P
+X Pin_1 +Lamp -200 100 150 R 50 50 1 1 P
+X Pin_4 - -200 -100 150 R 50 50 1 1 P
+X Pin_5 Mittaus -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SL-sahkot-rescue_Koneen-mittari-4-nap-ei-mittausta
+#
+DEF SL-sahkot-rescue_Koneen-mittari-4-nap-ei-mittausta Mittari 0 40 Y N 1 F N
+F0 "Mittari" 0 250 50 H V C CNN
+F1 "SL-sahkot-rescue_Koneen-mittari-4-nap-ei-mittausta" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 200 50 -250 1 1 10 f
+X Pin_3 + -200 -100 150 R 50 50 1 1 P
+X Pin_1 +Lamp -200 100 150 R 50 50 1 1 P
+X Pin_4 - -200 -200 150 R 50 50 1 1 P
+X Pin_5 -Lamp -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SL-sahkot-rescue_Koneen-mittari-5-nap
+#
+DEF SL-sahkot-rescue_Koneen-mittari-5-nap Mittari 0 40 Y N 1 F N
 F0 "Mittari" 0 300 50 H V C CNN
-F1 "SL-sahkot-rescue_Koneen-mittari-1-mittausnapa-Connector_Generic" 0 -300 50 H V C CNN
+F1 "SL-sahkot-rescue_Koneen-mittari-5-nap" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
