@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
 Title "Särkänlinnan moottorin mittariston kytkentä"
-Date "2019-12-02-Draft"
+Date "2020-05-08-Draft"
 Rev "0"
 Comp "Merenkävijät ry"
 Comment1 ""
@@ -16,34 +16,34 @@ $EndDescr
 $Comp
 L Connector_Generic:Conn_02x08_Row_Letter_Last J2
 U 1 1 5DE08317
-P 7700 1250
-F 0 "J2" H 7750 1675 50  0000 C CNN
-F 1 "J1" H 7750 1676 50  0001 C CNN
-F 2 "" H 7700 1250 50  0001 C CNN
-F 3 "~" H 7700 1250 50  0001 C CNN
-	1    7700 1250
+P 9350 4100
+F 0 "J2" H 9400 4525 50  0001 C CNN
+F 1 "J2 - Mittareiden sähkönsyöttö" H 9400 4526 50  0000 C CNN
+F 2 "" H 9350 4100 50  0001 C CNN
+F 3 "~" H 9350 4100 50  0001 C CNN
+	1    9350 4100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x08_Row_Letter_Last J4
 U 1 1 5DE0BA23
-P 4400 3700
-F 0 "J4" H 4450 4125 50  0000 C CNN
-F 1 "J2" H 4450 4126 50  0001 C CNN
-F 2 "" H 4400 3700 50  0001 C CNN
-F 3 "~" H 4400 3700 50  0001 C CNN
-	1    4400 3700
+P 4000 3700
+F 0 "J4" H 4050 4125 50  0001 C CNN
+F 1 "J4 - Moottorin johtosarjan kytkentä" H 4050 4126 50  0000 L CNN
+F 2 "" H 4000 3700 50  0001 C CNN
+F 3 "~" H 4000 3700 50  0001 C CNN
+	1    4000 3700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_SPST Mittarivalot
 U 1 1 5DE1A355
-P 6250 2050
-F 0 "Mittarivalot" H 6250 2193 50  0000 C CNN
-F 1 "SW_SPST" H 6250 2194 50  0001 C CNN
-F 2 "" H 6250 2050 50  0001 C CNN
-F 3 "~" H 6250 2050 50  0001 C CNN
-	1    6250 2050
+P 6850 2500
+F 0 "Mittarivalot" H 6850 2643 50  0000 C CNN
+F 1 "SW_SPST" H 6850 2644 50  0001 C CNN
+F 2 "" H 6850 2500 50  0001 C CNN
+F 3 "~" H 6850 2500 50  0001 C CNN
+	1    6850 2500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -56,17 +56,6 @@ F 2 "" V 5480 1050 50  0001 C CNN
 F 3 "~" H 5550 1050 50  0001 C CNN
 	1    5550 1050
 	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x06_Row_Letter_Last J1
-U 1 1 5DE2BAFC
-P 4350 1250
-F 0 "J1" H 4400 1667 50  0000 C CNN
-F 1 "30A" H 4400 1576 50  0000 C CNN
-F 2 "" H 4350 1250 50  0001 C CNN
-F 3 "~" H 4350 1250 50  0001 C CNN
-	1    4350 1250
-	1    0    0    -1  
 $EndComp
 $Comp
 L SL-sahkot-rescue:SL-virtalukko-Switch Virtalukko
@@ -82,34 +71,34 @@ $EndComp
 $Comp
 L Device:Fuse F2
 U 1 1 5DE3C7CD
-P 5550 1700
-F 0 "F2" V 5353 1700 50  0000 C CNN
-F 1 "5A" V 5444 1700 50  0000 C CNN
-F 2 "" V 5480 1700 50  0001 C CNN
-F 3 "~" H 5550 1700 50  0001 C CNN
-	1    5550 1700
+P 5550 1400
+F 0 "F2" V 5353 1400 50  0000 C CNN
+F 1 "30A" V 5444 1400 50  0000 C CNN
+F 2 "" V 5480 1400 50  0001 C CNN
+F 3 "~" H 5550 1400 50  0001 C CNN
+	1    5550 1400
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:Fuse F4
 U 1 1 5DE4007D
-P 5550 2450
-F 0 "F4" V 5353 2450 50  0000 C CNN
-F 1 "15A ?" V 5444 2450 50  0000 C CNN
-F 2 "" V 5480 2450 50  0001 C CNN
-F 3 "~" H 5550 2450 50  0001 C CNN
-	1    5550 2450
+P 5550 2150
+F 0 "F4" V 5353 2150 50  0000 C CNN
+F 1 "5A" V 5444 2150 50  0000 C CNN
+F 2 "" V 5480 2150 50  0001 C CNN
+F 3 "~" H 5550 2150 50  0001 C CNN
+	1    5550 2150
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:Fuse F5
 U 1 1 5DE41505
-P 5550 2800
-F 0 "F5" V 5353 2800 50  0000 C CNN
-F 1 "5A" V 5444 2800 50  0000 C CNN
-F 2 "" V 5480 2800 50  0001 C CNN
-F 3 "~" H 5550 2800 50  0001 C CNN
-	1    5550 2800
+P 5550 2500
+F 0 "F5" V 5353 2500 50  0000 C CNN
+F 1 "5A" V 5444 2500 50  0000 C CNN
+F 2 "" V 5480 2500 50  0001 C CNN
+F 3 "~" H 5550 2500 50  0001 C CNN
+	1    5550 2500
 	0    1    1    0   
 $EndComp
 $Comp
@@ -137,24 +126,22 @@ $EndComp
 $Comp
 L Device:Lamp Latausvalo
 U 1 1 5DE611EB
-P 6200 2800
-F 0 "Latausvalo" V 6027 2800 50  0000 C CNN
-F 1 "Lamp" H 6328 2755 50  0001 L CNN
-F 2 "" V 6200 2900 50  0001 C CNN
-F 3 "~" V 6200 2900 50  0001 C CNN
-	1    6200 2800
+P 6150 2150
+F 0 "Latausvalo" V 5977 2150 50  0000 C CNN
+F 1 "Lamp" H 6278 2105 50  0001 L CNN
+F 2 "" V 6150 2250 50  0001 C CNN
+F 3 "~" V 6150 2250 50  0001 C CNN
+	1    6150 2150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7500 1650 7500 1550
+	9150 4500 9150 4400
 Wire Wire Line
-	7500 950  7500 1050
-Connection ~ 7500 1050
+	9150 3800 9150 3900
+Connection ~ 9150 3900
 Wire Wire Line
-	7500 1050 7500 1150
-Wire Wire Line
-	7500 1550 7500 1450
-Connection ~ 7500 1550
+	9150 3900 9150 4000
+Connection ~ 9150 4400
 $Comp
 L Connector_Generic:Conn_01x02 Polttoaineanturi
 U 1 1 5DE2BF8F
@@ -171,12 +158,12 @@ Kone+
 $Comp
 L Device:Fuse F3
 U 1 1 5DE82B1C
-P 5550 2050
-F 0 "F3" V 5353 2050 50  0000 C CNN
-F 1 "5A" V 5444 2050 50  0000 C CNN
-F 2 "" V 5480 2050 50  0001 C CNN
-F 3 "~" H 5550 2050 50  0001 C CNN
-	1    5550 2050
+P 5550 1750
+F 0 "F3" V 5353 1750 50  0000 C CNN
+F 1 "15A" V 5444 1750 50  0000 C CNN
+F 2 "" V 5480 1750 50  0001 C CNN
+F 3 "~" H 5550 1750 50  0001 C CNN
+	1    5550 1750
 	0    1    1    0   
 $EndComp
 $Comp
@@ -193,32 +180,16 @@ $EndComp
 Text HLabel 1250 2250 0    47   Input ~ 0
 Kone-
 Wire Wire Line
-	5250 2800 5400 2800
+	5400 2150 5250 2150
 Wire Wire Line
-	5400 2450 5250 2450
+	5250 1750 5400 1750
 Wire Wire Line
-	5250 2050 5400 2050
-Connection ~ 5250 2050
+	5250 1750 5250 2150
+Connection ~ 5250 2150
 Wire Wire Line
-	5250 2050 5250 2450
-Wire Wire Line
-	5400 1700 5250 1700
-Wire Wire Line
-	5250 1700 5250 2050
-Connection ~ 5250 2450
-Wire Wire Line
-	5250 2450 5250 2800
-Wire Wire Line
-	5100 1250 5100 1150
-Wire Wire Line
-	5250 1450 5250 1700
-Connection ~ 5250 1700
+	5250 2150 5250 2500
 Wire Wire Line
 	6500 1150 6550 1150
-Wire Wire Line
-	6550 1150 6550 1250
-Wire Wire Line
-	6650 1450 6650 950 
 Wire Wire Line
 	6650 950  6500 950 
 Wire Wire Line
@@ -240,27 +211,19 @@ Koneen käyttösähkö (valkoinen)
 Wire Wire Line
 	1500 2350 4050 2350
 Wire Wire Line
-	1500 2250 3950 2250
+	1500 2250 3050 2250
 Wire Wire Line
 	1500 1750 3550 1750
 Wire Wire Line
 	3550 1750 3550 3400
 Wire Wire Line
-	3550 3400 4200 3400
+	3550 3400 3800 3400
 Wire Wire Line
 	1500 1850 3450 1850
 Wire Wire Line
-	3450 3500 4200 3500
-Wire Wire Line
-	3450 1850 3450 3500
-Wire Wire Line
-	6550 3500 6550 2800
-Wire Wire Line
-	6550 2800 6400 2800
-Wire Wire Line
 	1500 1950 3350 1950
 Wire Wire Line
-	3350 3600 4200 3600
+	3350 3600 3800 3600
 Wire Wire Line
 	3350 1950 3350 3600
 Wire Wire Line
@@ -268,29 +231,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 2050 3250 3700
 Wire Wire Line
-	3250 3700 4200 3700
-Wire Wire Line
-	8900 1350 8900 3400
-Wire Wire Line
-	8900 3400 4700 3400
-Wire Wire Line
-	9550 2000 9050 2000
-Wire Wire Line
-	9050 2000 9050 3600
-Wire Wire Line
-	9050 3600 4700 3600
-Wire Wire Line
-	9150 2700 9150 3700
-Wire Wire Line
-	9150 3700 4700 3700
-Wire Wire Line
-	6450 2050 7200 2050
-Wire Wire Line
-	7200 1550 7200 2050
-Wire Wire Line
-	6900 1050 6900 1700
-Wire Wire Line
-	5700 2800 6000 2800
+	3250 3700 3800 3700
 Wire Notes Line
 	5850 2950 5850 600 
 Wire Notes Line
@@ -302,214 +243,139 @@ Wire Notes Line
 Text Notes 5350 750  0    50   ~ 0
 Sulakkeet
 Wire Wire Line
-	5700 1700 6900 1700
+	4300 3500 6550 3500
 Wire Wire Line
-	5250 1450 6650 1450
+	5700 2150 5950 2150
 Wire Wire Line
-	5100 1250 6550 1250
-Wire Wire Line
-	5700 2050 6050 2050
-Wire Wire Line
-	4700 3500 6550 3500
-Wire Wire Line
-	5700 2450 5950 2450
-Wire Wire Line
-	5950 2450 5950 2200
-Wire Wire Line
-	5950 2200 5000 2200
-Wire Wire Line
-	1500 1400 1950 1400
-Wire Wire Line
-	1950 1400 1950 1150
-Wire Wire Line
-	1950 1150 4150 1150
-Wire Wire Line
-	4150 1050 1500 1050
+	5400 1050 1500 1050
 Wire Wire Line
 	5700 1050 6100 1050
-Wire Wire Line
-	9150 2700 9550 2700
-Wire Wire Line
-	6900 1050 7500 1050
-Wire Wire Line
-	7200 1550 7500 1550
-Text Label 8000 1050 0    50   ~ 0
-Mittari+
-$Comp
-L SL-sahkot-rescue:Koneen-mittari-4-nap Kierroslukumittari
-U 1 1 5E22B493
-P 9750 1150
-F 0 "Kierroslukumittari" H 9830 1121 50  0000 L CNN
-F 1 "Koneen-mittari-4-nap" H 9830 1076 50  0001 L CNN
-F 2 "" H 9750 1150 50  0001 C CNN
-F 3 "" H 9750 1150 50  0001 C CNN
-	1    9750 1150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8900 1350 9550 1350
-Text Label 8000 1550 0    50   ~ 0
-Mittarivalo+
-$Comp
-L SL-sahkot-rescue:Koneen-mittari-4-nap-ei-mittausta Käyttötuntimittari
-U 1 1 5E241C17
-P 9750 3900
-F 0 "Käyttötuntimittari" H 9830 3871 50  0000 L CNN
-F 1 "Koneen-mittari-4-nap-ei-mittausta" H 9830 3826 50  0001 L CNN
-F 2 "" H 9750 3900 50  0001 C CNN
-F 3 "" H 9750 3900 50  0001 C CNN
-	1    9750 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L SL-sahkot-rescue:Koneen-mittari-4-nap-ei-mittausta Jännitemittari
-U 1 1 5E2458B7
-P 9750 3200
-F 0 "Jännitemittari" H 9830 3171 50  0000 L CNN
-F 1 "Koneen-mittari-4-nap-ei-mittausta" H 9830 3126 50  0001 L CNN
-F 2 "" H 9750 3200 50  0001 C CNN
-F 3 "" H 9750 3200 50  0001 C CNN
-	1    9750 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L SL-sahkot-rescue:Koneen-mittari-5-nap Lämpömittari
-U 1 1 5E24C965
-P 9750 1800
-F 0 "Lämpömittari" H 9830 1796 50  0000 L CNN
-F 1 "Koneen-mittari-5-nap" H 9830 1751 50  0001 L CNN
-F 2 "" H 9750 1800 50  0001 C CNN
-F 3 "" H 9750 1800 50  0001 C CNN
-	1    9750 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L SL-sahkot-rescue:Koneen-mittari-5-nap Öljynpainemittari
-U 1 1 5E24DF82
-P 9750 2500
-F 0 "Öljynpainemittari" H 9830 2496 50  0000 L CNN
-F 1 "Koneen-mittari-5-nap" H 9830 2451 50  0001 L CNN
-F 2 "" H 9750 2500 50  0001 C CNN
-F 3 "" H 9750 2500 50  0001 C CNN
-	1    9750 2500
-	1    0    0    -1  
-$EndComp
-Text Label 9550 1150 2    50   ~ 0
-Mittari+
-Text Label 9550 1800 2    50   ~ 0
-Mittari+
-Text Label 9550 3300 2    50   ~ 0
-Mittari+
-Text Label 9550 4000 2    50   ~ 0
-Mittari+
-Text Label 9550 4600 2    50   ~ 0
-Mittari+
-Text Label 9550 1050 2    50   ~ 0
-Mittarivalo+
-Text Label 9550 1600 2    50   ~ 0
-Mittarivalo+
-Text Label 9550 2300 2    50   ~ 0
-Mittarivalo+
-Text Label 9550 3100 2    50   ~ 0
-Mittarivalo+
-Text Label 9550 3800 2    50   ~ 0
-Mittarivalo+
-Text Label 9550 4500 2    50   ~ 0
-Mittarivalo+
 $Comp
 L Connector_Generic:Conn_02x08_Row_Letter_Last J3
 U 1 1 5E2534C9
-P 7700 2500
-F 0 "J3" H 7750 2925 50  0001 C CNN
-F 1 "J3 - Maa" H 7750 2926 50  0000 C CNN
-F 2 "" H 7700 2500 50  0001 C CNN
-F 3 "~" H 7700 2500 50  0001 C CNN
-	1    7700 2500
+P 6100 4100
+F 0 "J3" H 6150 4525 50  0001 C CNN
+F 1 "J3 - Maa" H 6150 4526 50  0000 C CNN
+F 2 "" H 6100 4100 50  0001 C CNN
+F 3 "~" H 6100 4100 50  0001 C CNN
+	1    6100 4100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7500 2200 7500 2300
+	5900 3800 5900 3900
 Wire Wire Line
-	7500 2400 7500 2500
+	5900 4000 5900 4100
 Wire Wire Line
-	7500 2600 7500 2700
+	5900 4200 5900 4300
 Wire Wire Line
-	7500 2900 7500 2800
+	5900 4500 5900 4400
 Wire Wire Line
-	7500 2300 7500 2400
-Connection ~ 7500 2300
-Connection ~ 7500 2400
+	5900 3900 5900 4000
+Connection ~ 5900 3900
+Connection ~ 5900 4000
 Wire Wire Line
-	7500 2500 7500 2600
-Connection ~ 7500 2500
-Connection ~ 7500 2600
+	5900 4100 5900 4200
+Connection ~ 5900 4100
+Connection ~ 5900 4200
 Wire Wire Line
-	7500 2700 7500 2800
-Connection ~ 7500 2700
-Connection ~ 7500 2800
-Text Label 8000 2200 0    50   ~ 0
-Maa
-Text Label 9550 1250 2    50   ~ 0
-Maa
-Text Label 9550 1900 2    50   ~ 0
-Maa
-Text Label 9550 2600 2    50   ~ 0
-Maa
-Text Label 9550 2400 2    50   ~ 0
-Maa
-Text Label 9550 2500 2    50   ~ 0
-Mittari+
-Text Label 9550 1700 2    50   ~ 0
-Maa
-Text Label 9550 3200 2    50   ~ 0
-Maa
-Text Label 9550 3900 2    50   ~ 0
-Maa
-Text Label 9550 4100 2    50   ~ 0
-Maa
-Text Label 9550 3400 2    50   ~ 0
-Maa
+	5900 4300 5900 4400
+Connection ~ 5900 4300
+Connection ~ 5900 4400
+Wire Wire Line
+	1550 4000 3800 4000
+Wire Wire Line
+	3800 4100 1550 4100
+Wire Wire Line
+	4050 2350 4050 1750
 $Comp
-L SL-sahkot-rescue:Koneen-mittari-4-nap Polttoainemittari
-U 1 1 5E276B8E
-P 9750 4600
-F 0 "Polttoainemittari" H 9830 4571 50  0000 L CNN
-F 1 "Koneen-mittari-4-nap" H 9830 4526 50  0001 L CNN
-F 2 "" H 9750 4600 50  0001 C CNN
-F 3 "" H 9750 4600 50  0001 C CNN
-	1    9750 4600
-	1    0    0    -1  
+L Device:Fuse F6
+U 1 1 5EB5EF3F
+P 5550 2850
+F 0 "F6" V 5353 2850 50  0000 C CNN
+F 1 "5A" V 5444 2850 50  0000 C CNN
+F 2 "" V 5480 2850 50  0001 C CNN
+F 3 "~" H 5550 2850 50  0001 C CNN
+	1    5550 2850
+	0    1    1    0   
 $EndComp
-Text Label 9550 4700 2    50   ~ 0
-Maa
 Wire Wire Line
-	8600 4800 9550 4800
+	3450 3500 3800 3500
 Wire Wire Line
-	4650 1050 5400 1050
-Text Label 4650 1250 0    50   ~ 0
-Maa
+	3450 1850 3450 3500
 Wire Wire Line
-	4650 1150 5100 1150
+	6550 1150 6550 1400
 Wire Wire Line
-	1550 4000 4200 4000
+	6550 1400 5700 1400
 Wire Wire Line
-	4200 4100 1550 4100
+	1500 1400 5400 1400
 Wire Wire Line
-	8600 4800 8600 4000
+	6650 950  6650 1750
 Wire Wire Line
-	8600 4000 4700 4000
-Text Label 4700 4100 0    50   ~ 0
-Maa
+	5700 1750 6650 1750
 Wire Wire Line
-	5000 2200 5000 1350
+	5250 1750 4050 1750
+Connection ~ 5250 1750
 Wire Wire Line
-	5000 1350 4650 1350
+	3050 2250 3050 3900
 Wire Wire Line
-	4150 1250 3950 1250
+	3050 3900 3800 3900
 Wire Wire Line
-	3950 1250 3950 2250
+	5350 4100 5900 4100
 Wire Wire Line
-	4050 2350 4050 1350
+	5350 4100 5350 3900
 Wire Wire Line
-	4050 1350 4150 1350
+	5350 3900 4300 3900
+Wire Wire Line
+	4300 4000 5250 4000
+Wire Wire Line
+	5250 4000 5250 4200
+Wire Wire Line
+	5250 4200 5900 4200
+Wire Wire Line
+	5250 2500 5400 2500
+Wire Wire Line
+	5400 2850 5250 2850
+Wire Wire Line
+	5250 2850 5250 2500
+Connection ~ 5250 2500
+Wire Wire Line
+	6550 2150 6550 3500
+Wire Wire Line
+	6550 2150 6350 2150
+Wire Wire Line
+	5700 2500 6650 2500
+Connection ~ 9150 4300
+Wire Wire Line
+	9150 4300 9150 4200
+Wire Wire Line
+	9150 4400 9150 4300
+Wire Wire Line
+	9150 4000 9150 4100
+Connection ~ 9150 4000
+Wire Wire Line
+	8100 4300 9150 4300
+Wire Wire Line
+	8100 2500 8100 4300
+Wire Wire Line
+	9150 4000 7750 4000
+Wire Wire Line
+	7750 4000 7750 2850
+Wire Wire Line
+	7750 2850 5700 2850
+Wire Wire Line
+	3800 3800 3150 3800
+Wire Wire Line
+	3150 3800 3150 2150
+Wire Wire Line
+	3150 2150 1500 2150
+Text Label 4300 3400 0    50   ~ 0
+Kierroslukumittari
+Text Label 4300 3600 0    50   ~ 0
+Lämpömittari
+Text Label 4300 3700 0    50   ~ 0
+Öljynpainemittari
+Text Label 4300 4100 0    50   ~ 0
+Polttiainemittari
+Wire Wire Line
+	7050 2500 8100 2500
 $EndSCHEMATC
