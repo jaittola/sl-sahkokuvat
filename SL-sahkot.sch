@@ -16,54 +16,54 @@ $EndDescr
 $Comp
 L Device:Battery B1
 U 1 1 5DE04A3D
-P 2300 1600
-F 0 "B1" V 2055 1600 50  0000 C CNN
-F 1 "Käynnistysakku" V 2146 1600 50  0000 C CNN
-F 2 "" V 2300 1660 50  0001 C CNN
-F 3 "~" V 2300 1660 50  0001 C CNN
-	1    2300 1600
+P 2300 1400
+F 0 "B1" V 2055 1400 50  0000 C CNN
+F 1 "Käynnistysakku" V 2146 1400 50  0000 C CNN
+F 2 "" V 2300 1460 50  0001 C CNN
+F 3 "~" V 2300 1460 50  0001 C CNN
+	1    2300 1400
 	0    -1   1    0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 Maasähkö
 U 1 1 5DE09D24
-P 2250 900
-F 0 "Maasähkö" V 2214 712 50  0000 R CNN
-F 1 "Laturi 1" V 2123 712 50  0000 R CNN
-F 2 "" H 2250 900 50  0001 C CNN
-F 3 "~" H 2250 900 50  0001 C CNN
-	1    2250 900 
+P 2250 700
+F 0 "Maasähkö" V 2214 512 50  0000 R CNN
+F 1 "Laturi 1" V 2123 512 50  0000 R CNN
+F 2 "" H 2250 700 50  0001 C CNN
+F 3 "~" H 2250 700 50  0001 C CNN
+	1    2250 700 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2250 1100 2100 1100
+	2250 900  2100 900 
 Wire Wire Line
-	2100 1100 2100 1600
+	2100 900  2100 1400
 Wire Wire Line
-	2350 1100 2500 1100
+	2350 900  2500 900 
 Wire Wire Line
-	2500 1100 2500 1600
+	2500 900  2500 1400
 $Comp
 L Switch:SW_DPST Pääkytkin1
 U 1 1 5DE0B4D9
-P 2300 2200
-F 0 "Pääkytkin1" V 2254 2388 50  0000 L CNN
-F 1 "Käynnistysvirtapiiri" V 2345 2388 50  0000 L CNN
-F 2 "" H 2300 2200 50  0001 C CNN
-F 3 "~" H 2300 2200 50  0001 C CNN
-	1    2300 2200
+P 2300 2000
+F 0 "Pääkytkin1" V 2254 2188 50  0000 L CNN
+F 1 "Käynnistysvirtapiiri" V 2345 2188 50  0000 L CNN
+F 2 "" H 2300 2000 50  0001 C CNN
+F 3 "~" H 2300 2000 50  0001 C CNN
+	1    2300 2000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2100 1600 2100 2000
+	2100 1400 2100 1800
 Wire Wire Line
-	2100 2000 2200 2000
-Connection ~ 2100 1600
+	2100 1800 2200 1800
+Connection ~ 2100 1400
 Wire Wire Line
-	2500 1600 2500 2000
+	2500 1400 2500 1800
 Wire Wire Line
-	2500 2000 2400 2000
-Connection ~ 2500 1600
+	2500 1800 2400 1800
+Connection ~ 2500 1400
 $Comp
 L Connector_Generic:Conn_01x02 Käynnistysmoottori
 U 1 1 5DE18772
@@ -78,12 +78,11 @@ $EndComp
 Wire Wire Line
 	2400 3400 2350 3400
 Wire Wire Line
-	2200 2300 2200 2400
+	2200 2100 2200 2200
 Wire Wire Line
 	2200 3400 2250 3400
-Connection ~ 2200 2400
 Wire Wire Line
-	2200 2400 2200 2500
+	2200 2200 2200 2500
 $Comp
 L Connector_Generic:Conn_01x02 G
 U 1 1 5DE196F4
@@ -123,125 +122,110 @@ Wire Wire Line
 $Comp
 L Device:Battery B2
 U 1 1 5DE243CE
-P 5550 1600
-F 0 "B2" V 5305 1600 50  0000 C CNN
-F 1 "Käyttöakku" V 5396 1600 50  0000 C CNN
-F 2 "" V 5550 1660 50  0001 C CNN
-F 3 "~" V 5550 1660 50  0001 C CNN
-	1    5550 1600
+P 5550 1400
+F 0 "B2" V 5305 1400 50  0000 C CNN
+F 1 "Käyttöakku" V 5396 1400 50  0000 C CNN
+F 2 "" V 5550 1460 50  0001 C CNN
+F 3 "~" V 5550 1460 50  0001 C CNN
+	1    5550 1400
 	0    -1   1    0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 Maasähkö
 U 1 1 5DE243D4
-P 5500 900
-F 0 "Maasähkö" V 5464 712 50  0000 R CNN
-F 1 "Laturi 2" V 5373 712 50  0000 R CNN
-F 2 "" H 5500 900 50  0001 C CNN
-F 3 "~" H 5500 900 50  0001 C CNN
-	1    5500 900 
+P 5500 700
+F 0 "Maasähkö" V 5464 512 50  0000 R CNN
+F 1 "Laturi 2" V 5373 512 50  0000 R CNN
+F 2 "" H 5500 700 50  0001 C CNN
+F 3 "~" H 5500 700 50  0001 C CNN
+	1    5500 700 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5500 1100 5350 1100
+	5500 900  5350 900 
 Wire Wire Line
-	5350 1100 5350 1600
+	5350 900  5350 1400
 Wire Wire Line
-	5600 1100 5750 1100
+	5600 900  5750 900 
 Wire Wire Line
-	5750 1100 5750 1600
+	5750 900  5750 1400
 $Comp
 L Switch:SW_DPST Pääkytkin2
 U 1 1 5DE243DE
-P 5550 2200
-F 0 "Pääkytkin2" V 5504 2388 50  0000 L CNN
-F 1 "Käyttövirtapiiri" V 5595 2388 50  0000 L CNN
-F 2 "" H 5550 2200 50  0001 C CNN
-F 3 "~" H 5550 2200 50  0001 C CNN
-	1    5550 2200
+P 5550 2000
+F 0 "Pääkytkin2" V 5504 2188 50  0000 L CNN
+F 1 "Käyttövirtapiiri" V 5595 2188 50  0000 L CNN
+F 2 "" H 5550 2000 50  0001 C CNN
+F 3 "~" H 5550 2000 50  0001 C CNN
+	1    5550 2000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5350 1600 5350 2000
+	5350 1400 5350 1800
 Wire Wire Line
-	5350 2000 5450 2000
-Connection ~ 5350 1600
+	5350 1800 5450 1800
+Connection ~ 5350 1400
 Wire Wire Line
-	5750 1600 5750 2000
+	5750 1400 5750 1800
 Wire Wire Line
-	5750 2000 5650 2000
-Connection ~ 5750 1600
+	5750 1800 5650 1800
+Connection ~ 5750 1400
 $Comp
 L Device:Battery B3
 U 1 1 5DE26C97
-P 7250 1600
-F 0 "B3" V 7005 1600 50  0000 C CNN
-F 1 "Hätäakku" V 7096 1600 50  0000 C CNN
-F 2 "" V 7250 1660 50  0001 C CNN
-F 3 "~" V 7250 1660 50  0001 C CNN
-	1    7250 1600
+P 7250 1400
+F 0 "B3" V 7005 1400 50  0000 C CNN
+F 1 "Hätäakku" V 7096 1400 50  0000 C CNN
+F 2 "" V 7250 1460 50  0001 C CNN
+F 3 "~" V 7250 1460 50  0001 C CNN
+	1    7250 1400
 	0    -1   1    0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 Maasähkö
 U 1 1 5DE26C9D
-P 7200 900
-F 0 "Maasähkö" V 7164 712 50  0000 R CNN
-F 1 "Laturi 3" V 7073 712 50  0000 R CNN
-F 2 "" H 7200 900 50  0001 C CNN
-F 3 "~" H 7200 900 50  0001 C CNN
-	1    7200 900 
+P 7200 700
+F 0 "Maasähkö" V 7164 512 50  0000 R CNN
+F 1 "Laturi 3" V 7073 512 50  0000 R CNN
+F 2 "" H 7200 700 50  0001 C CNN
+F 3 "~" H 7200 700 50  0001 C CNN
+	1    7200 700 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7200 1100 7050 1100
+	7200 900  7050 900 
 Wire Wire Line
-	7050 1100 7050 1600
+	7050 900  7050 1400
 Wire Wire Line
-	7300 1100 7450 1100
+	7300 900  7450 900 
 Wire Wire Line
-	7450 1100 7450 1600
+	7450 900  7450 1400
 $Comp
 L Switch:SW_DPST Pääkytkin3
 U 1 1 5DE26CA7
-P 7250 2200
-F 0 "Pääkytkin3" V 7204 2388 50  0000 L CNN
-F 1 "Hätävirtapiiri" V 7295 2388 50  0000 L CNN
-F 2 "" H 7250 2200 50  0001 C CNN
-F 3 "~" H 7250 2200 50  0001 C CNN
-	1    7250 2200
+P 7250 2000
+F 0 "Pääkytkin3" V 7204 2188 50  0000 L CNN
+F 1 "Hätävirtapiiri" V 7295 2188 50  0000 L CNN
+F 2 "" H 7250 2000 50  0001 C CNN
+F 3 "~" H 7250 2000 50  0001 C CNN
+	1    7250 2000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7050 1600 7050 2000
+	7050 1400 7050 1800
 Wire Wire Line
-	7050 2000 7150 2000
-Connection ~ 7050 1600
+	7050 1800 7150 1800
+Connection ~ 7050 1400
 Wire Wire Line
-	7450 1600 7450 2000
+	7450 1400 7450 1800
 Wire Wire Line
-	7450 2000 7350 2000
-Connection ~ 7450 1600
+	7450 1800 7350 1800
+Connection ~ 7450 1400
 Wire Wire Line
-	5650 2500 5650 2400
+	5650 2300 7350 2300
+Connection ~ 5650 2300
 Wire Wire Line
-	5650 2500 7350 2500
-Connection ~ 5650 2500
-Wire Wire Line
-	5450 2300 5450 2400
-Connection ~ 5450 2400
-Wire Wire Line
-	5450 2400 5450 2600
-Wire Wire Line
-	7150 2300 7150 2400
-Connection ~ 7150 2400
-Wire Wire Line
-	7150 2400 7150 2700
-Wire Wire Line
-	7350 2300 7350 2400
-Connection ~ 7350 2400
-Wire Wire Line
-	7350 2400 7350 2500
+	5450 2100 5450 2200
 $Sheet
 S 7500 3600 1250 600 
 U 5DE29F21
@@ -305,8 +289,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 2850 7350 2850
 Wire Wire Line
-	7350 2850 7350 2500
-Connection ~ 7350 2500
+	7350 2850 7350 2300
 Wire Wire Line
 	6200 4800 5650 4800
 Wire Wire Line
@@ -360,12 +343,7 @@ F2 "Kone+" I L 3200 3100 50
 F3 "Kone-" I L 3200 3200 50 
 $EndSheet
 Wire Wire Line
-	2400 2500 5650 2500
-Wire Wire Line
-	2400 2400 2400 2500
-Connection ~ 2400 2500
-Wire Wire Line
-	2400 2500 2400 3200
+	2400 2300 5650 2300
 Wire Wire Line
 	1250 2600 5450 2600
 Wire Wire Line
@@ -383,8 +361,7 @@ Connection ~ 7150 2700
 Wire Wire Line
 	7150 2700 7150 3250
 Wire Wire Line
-	5650 2500 5650 4800
-Connection ~ 5450 2600
+	5650 2300 5650 4800
 Wire Wire Line
 	5450 2600 5450 4450
 Wire Notes Line
@@ -397,4 +374,24 @@ Wire Notes Line
 	9050 3100 9050 5300
 Text Notes 7400 3350 0    59   ~ 12
 Sähkökeskus keulakajuutassa
+Connection ~ 2200 2200
+Wire Wire Line
+	7150 2100 7150 2200
+Wire Wire Line
+	7150 2200 7150 2700
+Connection ~ 7150 2200
+Wire Wire Line
+	5450 2200 5450 2600
+Connection ~ 5450 2200
+Connection ~ 5450 2600
+Wire Wire Line
+	2400 2300 2400 3200
+Wire Wire Line
+	2400 2200 2400 2300
+Connection ~ 2400 2300
+Wire Wire Line
+	5650 2200 5650 2300
+Wire Wire Line
+	7350 2200 7350 2300
+Connection ~ 7350 2300
 $EndSCHEMATC
