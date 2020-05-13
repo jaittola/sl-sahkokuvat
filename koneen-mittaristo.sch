@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
 Title "Särkänlinnan moottorin mittariston kytkentä"
-Date "2020-05-08-Draft"
+Date "2020-05-13-Draft"
 Rev "0"
 Comp "Merenkävijät ry"
 Comment1 ""
@@ -18,7 +18,7 @@ L Connector_Generic:Conn_02x08_Row_Letter_Last J2
 U 1 1 5DE08317
 P 9350 4100
 F 0 "J2" H 9400 4525 50  0001 C CNN
-F 1 "J2 - Mittareiden sähkönsyöttö" H 9400 4526 50  0000 C CNN
+F 1 "B - Mittareiden sähkönsyöttö" H 9400 4526 50  0000 C CNN
 F 2 "" H 9350 4100 50  0001 C CNN
 F 3 "~" H 9350 4100 50  0001 C CNN
 	1    9350 4100
@@ -29,7 +29,7 @@ L Connector_Generic:Conn_02x08_Row_Letter_Last J4
 U 1 1 5DE0BA23
 P 4000 3700
 F 0 "J4" H 4050 4125 50  0001 C CNN
-F 1 "J4 - Moottorin johtosarjan kytkentä" H 4050 4126 50  0000 L CNN
+F 1 "D - Moottorin johtosarjan kytkentä" H 4050 4126 50  0000 L CNN
 F 2 "" H 4000 3700 50  0001 C CNN
 F 3 "~" H 4000 3700 50  0001 C CNN
 	1    4000 3700
@@ -38,12 +38,12 @@ $EndComp
 $Comp
 L Switch:SW_SPST Mittarivalot
 U 1 1 5DE1A355
-P 6850 2500
-F 0 "Mittarivalot" H 6850 2643 50  0000 C CNN
-F 1 "SW_SPST" H 6850 2644 50  0001 C CNN
-F 2 "" H 6850 2500 50  0001 C CNN
-F 3 "~" H 6850 2500 50  0001 C CNN
-	1    6850 2500
+P 7200 2500
+F 0 "Mittarivalot" H 7200 2643 50  0000 C CNN
+F 1 "SW_SPST" H 7200 2644 50  0001 C CNN
+F 2 "" H 7200 2500 50  0001 C CNN
+F 3 "~" H 7200 2500 50  0001 C CNN
+	1    7200 2500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -60,12 +60,12 @@ $EndComp
 $Comp
 L SL-sahkot-rescue:SL-virtalukko-Switch Virtalukko
 U 1 1 5DE340D4
-P 6300 1050
-F 0 "Virtalukko" H 6300 1241 50  0000 C CNN
-F 1 "SL-virtalukko" H 6300 1242 50  0001 C CNN
-F 2 "" H 5675 1225 50  0001 C CNN
-F 3 "~" H 5675 1225 50  0001 C CNN
-	1    6300 1050
+P 6600 1050
+F 0 "Virtalukko" H 6600 1241 50  0000 C CNN
+F 1 "SL-virtalukko" H 6600 1242 50  0001 C CNN
+F 2 "" H 5975 1225 50  0001 C CNN
+F 3 "~" H 5975 1225 50  0001 C CNN
+	1    6600 1050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -126,12 +126,12 @@ $EndComp
 $Comp
 L Device:Lamp Latausvalo
 U 1 1 5DE611EB
-P 6150 2150
-F 0 "Latausvalo" V 5977 2150 50  0000 C CNN
-F 1 "Lamp" H 6278 2105 50  0001 L CNN
-F 2 "" V 6150 2250 50  0001 C CNN
-F 3 "~" V 6150 2250 50  0001 C CNN
-	1    6150 2150
+P 6500 2150
+F 0 "Latausvalo" V 6327 2150 50  0000 C CNN
+F 1 "Lamp" H 6628 2105 50  0001 L CNN
+F 2 "" V 6500 2250 50  0001 C CNN
+F 3 "~" V 6500 2250 50  0001 C CNN
+	1    6500 2150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -189,11 +189,9 @@ Connection ~ 5250 2150
 Wire Wire Line
 	5250 2150 5250 2500
 Wire Wire Line
-	6500 1150 6550 1150
+	6800 1150 6850 1150
 Wire Wire Line
-	6650 950  6500 950 
-Wire Wire Line
-	6450 1050 6500 1050
+	7000 950  6800 950 
 Text Notes 1550 1750 0    50   ~ 0
 Kierroslukumittari (W) (sininen)
 Text Notes 1550 1850 0    50   ~ 0
@@ -240,22 +238,18 @@ Wire Notes Line
 	5150 2950 5850 2950
 Wire Notes Line
 	5150 600  5850 600 
-Text Notes 5350 750  0    50   ~ 0
-Sulakkeet
-Wire Wire Line
-	4300 3500 6550 3500
-Wire Wire Line
-	5700 2150 5950 2150
+Text Notes 5250 750  0    50   ~ 0
+A - Sulakkeet
 Wire Wire Line
 	5400 1050 1500 1050
 Wire Wire Line
-	5700 1050 6100 1050
+	5700 1050 6400 1050
 $Comp
 L Connector_Generic:Conn_02x08_Row_Letter_Last J3
 U 1 1 5E2534C9
 P 6100 4100
 F 0 "J3" H 6150 4525 50  0001 C CNN
-F 1 "J3 - Maa" H 6150 4526 50  0000 C CNN
+F 1 "C - Maa" H 6150 4526 50  0000 C CNN
 F 2 "" H 6100 4100 50  0001 C CNN
 F 3 "~" H 6100 4100 50  0001 C CNN
 	1    6100 4100
@@ -303,15 +297,15 @@ Wire Wire Line
 Wire Wire Line
 	3450 1850 3450 3500
 Wire Wire Line
-	6550 1150 6550 1400
+	6850 1150 6850 1400
 Wire Wire Line
-	6550 1400 5700 1400
+	6850 1400 5700 1400
 Wire Wire Line
 	1500 1400 5400 1400
 Wire Wire Line
-	6650 950  6650 1750
+	7000 950  7000 1750
 Wire Wire Line
-	5700 1750 6650 1750
+	5700 1750 7000 1750
 Wire Wire Line
 	5250 1750 4050 1750
 Connection ~ 5250 1750
@@ -320,17 +314,13 @@ Wire Wire Line
 Wire Wire Line
 	3050 3900 3800 3900
 Wire Wire Line
-	5350 4100 5900 4100
+	5450 3900 4300 3900
 Wire Wire Line
-	5350 4100 5350 3900
+	4300 4000 5450 4000
 Wire Wire Line
-	5350 3900 4300 3900
+	5450 4000 5450 4200
 Wire Wire Line
-	4300 4000 5250 4000
-Wire Wire Line
-	5250 4000 5250 4200
-Wire Wire Line
-	5250 4200 5900 4200
+	5450 4200 5900 4200
 Wire Wire Line
 	5250 2500 5400 2500
 Wire Wire Line
@@ -339,11 +329,9 @@ Wire Wire Line
 	5250 2850 5250 2500
 Connection ~ 5250 2500
 Wire Wire Line
-	6550 2150 6550 3500
+	6900 2150 6900 3500
 Wire Wire Line
-	6550 2150 6350 2150
-Wire Wire Line
-	5700 2500 6650 2500
+	6900 2150 6700 2150
 Connection ~ 9150 4300
 Wire Wire Line
 	9150 4300 9150 4200
@@ -352,10 +340,6 @@ Wire Wire Line
 Wire Wire Line
 	9150 4000 9150 4100
 Connection ~ 9150 4000
-Wire Wire Line
-	8100 4300 9150 4300
-Wire Wire Line
-	8100 2500 8100 4300
 Wire Wire Line
 	9150 4000 7750 4000
 Wire Wire Line
@@ -368,14 +352,136 @@ Wire Wire Line
 	3150 3800 3150 2150
 Wire Wire Line
 	3150 2150 1500 2150
-Text Label 4300 3400 0    50   ~ 0
-Kierroslukumittari
-Text Label 4300 3600 0    50   ~ 0
-Lämpömittari
-Text Label 4300 3700 0    50   ~ 0
-Öljynpainemittari
-Text Label 4300 4100 0    50   ~ 0
-Polttiainemittari
 Wire Wire Line
-	7050 2500 8100 2500
+	7400 2500 7900 2500
+Wire Wire Line
+	4300 3500 6900 3500
+Wire Wire Line
+	5700 2150 6300 2150
+Wire Wire Line
+	5700 2500 7000 2500
+Text Label 6000 1050 0    50   ~ 0
+K-A1
+Text Label 6000 1400 0    50   ~ 0
+K-A2
+Text Label 6000 1750 0    50   ~ 0
+K-A3
+Text Label 6000 2150 0    50   ~ 0
+K-A4
+Text Label 6000 2500 0    50   ~ 0
+K-A5
+Text Label 6000 2850 0    50   ~ 0
+K-A6
+Text Label 4350 3400 0    50   ~ 0
+K-D1
+Text Label 4350 3500 0    50   ~ 0
+K-D2
+Text Label 4350 3600 0    50   ~ 0
+K-D3
+Text Label 4350 3700 0    50   ~ 0
+K-D4
+Text Label 4350 4100 0    50   ~ 0
+K-D8
+Text Notes 4650 3400 0    50   ~ 0
+Kierroslukumittari W
+Text Notes 4650 3500 0    50   ~ 0
+Latausvalo
+Text Notes 4650 3600 0    50   ~ 0
+Moottorin lämpömittari
+Text Notes 4650 3700 0    50   ~ 0
+Öljynpainemittari
+Text Notes 4650 4100 0    50   ~ 0
+Polttoainemittari
+Wire Wire Line
+	5450 3900 5450 3800
+Wire Wire Line
+	5450 3800 5900 3800
+Connection ~ 5900 3800
+Text Notes 4650 3900 0    50   ~ 0
+Maa
+Text Notes 4650 4000 0    50   ~ 0
+Maa
+Text Label 6400 3800 0    50   ~ 0
+K-C1
+Text Label 6400 3900 0    50   ~ 0
+K-C2
+Text Label 6400 4000 0    50   ~ 0
+K-C3
+Text Label 6400 4100 0    50   ~ 0
+K-C4
+Text Label 6400 4200 0    50   ~ 0
+K-C5
+Text Label 6400 4300 0    50   ~ 0
+K-C6
+Text Label 6400 4400 0    50   ~ 0
+K-C7
+Text Label 6400 4500 0    50   ~ 0
+K-C8
+Text Label 9650 3800 0    50   ~ 0
+K-B1
+Text Label 9650 3900 0    50   ~ 0
+K-B2
+Text Label 9650 4000 0    50   ~ 0
+K-B3
+Text Label 9650 4100 0    50   ~ 0
+K-B4
+Text Label 9650 4200 0    50   ~ 0
+K-B5
+Text Label 9650 4300 0    50   ~ 0
+K-B6
+Text Label 9650 4400 0    50   ~ 0
+K-B7
+Text Label 9650 4500 0    50   ~ 0
+K-B8
+Text Label 9150 3800 2    50   ~ 0
+K-B9
+Text Label 9150 3900 2    50   ~ 0
+K-B10
+Wire Wire Line
+	9150 4200 7900 4200
+Wire Wire Line
+	7900 2500 7900 4200
+Connection ~ 9150 4200
+Text Label 9150 4300 2    50   ~ 0
+K-B14
+Text Notes 6700 3800 0    50   ~ 0
+Jännitemittari
+Text Notes 6700 3900 0    50   ~ 0
+Tuntimittari
+Text Notes 6700 4000 0    50   ~ 0
+Öljynpainemittari
+Text Notes 6700 4100 0    50   ~ 0
+Polttoainemittari
+Text Notes 6700 4200 0    50   ~ 0
+Kierroslukumittari
+Text Notes 6700 4300 0    50   ~ 0
+Lämpömittari
+Text Notes 6700 4400 0    50   ~ 0
+Jännitemittarin valo
+Text Notes 6700 4500 0    50   ~ 0
+Kierroslukumittarin valo
+Text Notes 9950 3800 0    50   ~ 0
+Jännitemittari
+Text Notes 9950 3900 0    50   ~ 0
+Tuntimittari
+Text Notes 9950 4000 0    50   ~ 0
+Öljynpainemittari
+Text Notes 9950 4100 0    50   ~ 0
+Polttoainemittari
+Text Notes 9950 4200 0    50   ~ 0
+Jännitemittarin valo
+Text Notes 9950 4300 0    50   ~ 0
+Polttoainemittarin valo
+Text Notes 9950 4400 0    50   ~ 0
+Lämpömittarin valo
+Text Notes 8800 3800 2    50   ~ 0
+Kierroslukumittari
+Text Notes 8800 3900 2    50   ~ 0
+Lämpömittari
+Text Notes 8800 4300 2    50   ~ 0
+Kierroslukumittarin valo
+Text Label 9150 4000 2    50   ~ 0
+K-B11
+Text Label 9150 4200 2    50   ~ 0
+K-B13
 $EndSCHEMATC
