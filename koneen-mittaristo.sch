@@ -5,9 +5,9 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
 Title "Särkänlinnan moottorin mittariston kytkentä"
-Date "2020-05-13-Draft"
+Date "2020-05-21"
 Rev "0"
-Comp "Merenkävijät ry"
+Comp "Merenkävijät ry (JA)"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -484,4 +484,6 @@ Text Label 9150 4000 2    50   ~ 0
 K-B11
 Text Label 9150 4200 2    50   ~ 0
 K-B13
+Text Notes 8800 4200 2    50   ~ 0
+Mittarivalokytkin
 $EndSCHEMATC

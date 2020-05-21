@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "M/Y Särkänlinnan sähköjärjestelmä"
-Date "2019-12-02-Draft"
+Date "2020-05-21-Draft"
 Rev "0"
 Comp "Merenkävijät ry"
 Comment1 ""
